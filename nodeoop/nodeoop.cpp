@@ -215,7 +215,7 @@ int main() {
 	cout << endl;
 	int n= l.findMid(l);
 	cout << n << endl;
-
+	cout << "done";
 	system("pause");
 
 
