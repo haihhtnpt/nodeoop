@@ -28,6 +28,7 @@ public:
     Node * getNext() {
 		return next;
 	}
+	
 	void setData(int data) {
 		this->data=data;
 	}
@@ -35,6 +36,7 @@ public:
 		this->next = tmp;
 		
 	}
+	
 
 };
 typedef class Node* node;
@@ -70,6 +72,7 @@ public:
 		}
 		else{
 			pTail->setNext(tmp);
+			//pTail->getNext()=tmp;
 			pTail=tmp;
 
 		}
